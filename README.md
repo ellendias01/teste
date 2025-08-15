@@ -35,5 +35,4 @@
 - Se uma carta estiver com status `ENTREGUE`, seu status **não pode ser alterado**.
 - Upload de foto do pombo: `POST /pigeons/:id/photo` (form-data `file`).
 
-## Entrega (o que enviar)
-- Compacte este projeto e submeta o repositório (ou o zip). Aqui já deixei um `pigeon-delivery.zip` pronto para download.
+
