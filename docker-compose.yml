@@ -4,6 +4,7 @@ services:
   backend:
     build: ./backend
     container_name: backend
+    image: ellen25/backend
     ports:
       - "3000:3000"
     networks:
@@ -12,6 +13,7 @@ services:
   frontend:
     build: ./frontend
     container_name: frontend
+    image: ellen25/frontend
     ports:
       - "3001:80"
     depends_on:
