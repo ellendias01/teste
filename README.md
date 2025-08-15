@@ -14,9 +14,8 @@
 ### Backend
 1. Abra um terminal em `backend/`.
 2. `npm install`
-3. `npm run seed` (gera dados iniciais)
-4. `npm run start:dev`
-5. API estará em http://localhost:3000
+3. `npm run start:dev`
+4. API estará em http://localhost:3000
 
 ### Frontend
 1. Abra outro terminal em `frontend/`.
