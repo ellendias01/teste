@@ -1,0 +1,20 @@
+{
+  "name": "pigeon-delivery-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.1",
+    "react-hook-form": "^7.45.1"
+  },
+  "devDependencies": {
+    "vite": "^4.3.9",
+    "@vitejs/plugin-react": "^3.1.0"
+  }
+}

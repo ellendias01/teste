@@ -1,0 +1,43 @@
+:root{
+  --primary:#2563eb;
+  --muted:#6b7280;
+  --bg:#f8fafc;
+  --card:#ffffff;
+  --success:#16a34a;
+  --danger:#dc2626;
+  --warning:#f59e0b;
+  --info:#06b6d4;
+}
+*{box-sizing:border-box}
+body{font-family:Inter, Arial, sans-serif;background:var(--bg);margin:0;padding:0;color:#111}
+.container{max-width:1100px;margin:24px auto;padding:20px}
+header{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px}
+nav button{margin-left:8px;padding:8px 12px;border-radius:8px;border:1px solid transparent;background:transparent;cursor:pointer}
+.card{background:var(--card);padding:16px;border-radius:10px;box-shadow:0 6px 18px rgba(15,23,42,0.06)}
+.form-row{display:flex;gap:8px;margin-bottom:10px}
+input,select,textarea{padding:8px;border-radius:8px;border:1px solid #d1d5db;flex:1}
+label{display:block;font-size:14px;margin-bottom:4px;color:var(--muted)}
+.btn{background:var(--primary);color:white;padding:8px 12px;border-radius:8px;border:none;cursor:pointer}
+.btn.ghost{background:transparent;color:var(--primary);border:1px solid var(--primary)}
+.table{width:100%;border-collapse:collapse;margin-top:8px}
+th,td{padding:10px;text-align:left;border-bottom:1px solid #eef2f7}
+tr:hover{background:#fbfdff}
+.muted{color:var(--muted)}
+.error{color:var(--danger);font-size:13px}
+.success{color:var(--success);font-size:13px}
+.flex{display:flex;gap:8px;align-items:center; margin-bottom:8px; flex-direction: row-reverse;}
+.search{padding:8px;border-radius:8px;border:1px solid #d1d5db;min-width:200px}
+.small{font-size:13px;padding:6px 8px}
+.center{display:flex;justify-content:center;align-items:center}
+.home-hero{display:flex;gap:18px;align-items:center}
+.hero-text{flex:1}
+.hero-ill{width:160px;height:160px;background:linear-gradient(135deg,var(--primary),#6ee7b7);border-radius:12px;display:flex;justify-content:center;align-items:center;color:white;font-weight:700}
+.status-badge{padding:6px 8px;border-radius:8px;color:white;font-weight:600}
+.status-NA_FILA{background:var(--muted)}
+.status-ENVIADO{background:var(--warning)}
+.status-ENTREGUE{background:var(--success)}
+.summary{display:flex;gap:12px;margin-bottom:12px}
+.summary .card{flex:1}
+.modal-back{position:fixed;inset:0;background:rgba(0,0,0,0.4);display:flex;align-items:center;justify-content:center}
+.modal{background:var(--card);padding:16px;border-radius:12px;width:90% ;}
+.preview-img{width:80px;height:80px;object-fit:cover;border-radius:8px;border:1px solid #e5e7eb}
